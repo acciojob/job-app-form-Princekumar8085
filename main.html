@@ -8,39 +8,44 @@
 
 <body>
 	<form>
-<label id="#name">
- <input type="text" placeholder="name">
-</label>
-	<br>
-	<label id="#email">
-     <input type="email" placeholder="email">
-	</label>
-	<br>
+<div>  
+<label>Name*</label>   
+<input type="text" placeholder="Enter Name" name="name" required>   
+</div> 
+	<div>   
+<label> Email* </label>   
+<input type="email" placeholder="Enter email ID" name="email" required>   
+  
+</div> 
+		<label>Gender*</label>
 	<label id="101">
-		<input type="radio" valve="male" name="gender">male
+		<input type="radio" valve="male" name="gender" required>male
 	</label>
 	<label id="102">
-		<input type="radio" valve="female" name="gender">female
+		<input type="radio" valve="female" name="gender" required>female
 	</label>
 	<br>
 	
-	<select name="laptop" id="#latop">
+	<select name="laptop" id="latop">
 		<option name="Apple">Apple</option>
 		<option name="Asus">Asus</option>
 		<option name="HP">HP</option>
 	</select>
-	<br>
-	<label id="#age">
-	 <input type="text" placeholder="age">
-	</label>
-	<br>
-	<label id="dob">
-	 <input type="date" placeholder="DOB">
-	</label>
-	<br>
-	
-	<input type="password" placeholder="password">
-	<br>
+	<div>   
+<label> Age*</label>   
+<input type="text" placeholder="Age" name="email" required>   
+  
+</div>  
+	<div>  
+<label>DOB*</label>   
+<input type="date"  required>   
+ 
+  </div> 
+	<div>  
+<label>Password*</label>   
+<input type="password" placeholder="Enter Password" name="psw" required>   
+<br>  
+  </div> 
  		 
 		<input type="submit" value="submit">
 	</form>
