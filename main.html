@@ -7,50 +7,30 @@
 </head>
 
 <body>
-	<form>
-    <div>  
-<label for="Name">Name*</label>   
-<input type="text" placeholder="Enter Name" name="name" required>   
-</div> 
-	<div>   
-        <label for="Email"> Email* </label>   
-        <input type="email" placeholder="Enter email ID" name="email" required>   
-  
-     </div> 
-	<div>
-		<label for="Gender">Gender*</label>
-	
-		<input type="radio" valve="male" name="gender" required>male
-	
-	<label id="102">
-		<input type="radio" valve="female" name="gender" required>female
-	
-		</div>
-	<div>
-	<label for="Laptop Brands">Laptop Brands</label>
-	<select name="laptop" id="latop">
-		<option name="Apple">Apple</option>
-		<option name="Asus">Asus</option>
-		<option name="HP">HP</option>
-	</select>
-	</div>
-	<div>   
-<label for="Age"> Age*</label>   
-<input type="text" placeholder="Age" name="email" required>   
-  
-</div>  
-	<div>  
-<label for="DOB">DOB*</label>   
-<input type="date"  required>   
- 
-  </div> 
-	<div>  
-<label for="Password">Password*</label>   
-<input type="password" placeholder="Enter Password" name="psw" required>   
-<br>  
-  </div> 
- 		 
-		<input type="submit" value="submit">
+	<form method="post">
+		<label for="portfolio">Portfolio</label>
+        <input type="url" name="portfolio" id="portfolio">
+		<label for="name">Name</label>
+        <input type="text" required id="name">
+		<label for="email">Email</label>
+        <input type="email" required id="email">
+		<label for="gender">Gender</label>
+        <input type="radio" name="gender" required id="gender">Male
+        <input type="radio" name="gender" required id="gender">Female
+		<label for="laptop" >Laptop Brands</label>
+		<select id="laptop">
+              <option value="volvo">Apple</option>
+              <option value="saab">Asus</option>
+              <option value="mercedes">HP</option>
+            </select>
+		<label for="age" >age</label>
+        <input type="age" required id="age">
+		<label for="dob">DOB</label>
+        <input type="date" required id="dob" >
+		<label for="password">Password</label>
+        <input type="password" required id="password">
+		<label for="submit">submit</label>
+        <button type="submit">Submit</button>
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
